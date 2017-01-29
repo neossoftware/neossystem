@@ -6,9 +6,11 @@ install instructions:
 
 install npm, gulp and bower
 
+```sh
 $ npm install
 $ bower install
-$ gulp work 
+$ gulp work
+```
 
 And enjoy!
 
