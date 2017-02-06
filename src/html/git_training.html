@@ -5,32 +5,41 @@
     <div class="container">
         <h1 class="page-title">Temario completo</h1>
 
+        <ol class="breadcrumb pull-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Herramientas de desarrollo</a></li>
+            <li class="active"><a href="#">Git/GitHub</a></li>
 
+        </ol>
     </div>
 </header>
 
 <div class="container">
     <div class="row">
-        <div class="col-md-3 hidden-sm hidden-xs">
-            <div class="ec-filters-menu">
-                <h3 class="section-title no-margin-top">Filtros</h3>
-                <h4>Selecciona un módulo</h4>
-                <ul>
-                    <li><a href="javascript:void(0);" class="filter" data-filter="all">Todos</a></li>
-                    <li><a href="javascript:void(0);" class="filter active " data-filter=".github">Git/GitHub</a></li>
-                    <li><a href="javascript:void(0);" class="filter" data-filter=".bootstrap">Bootstrap</a></li>
-                    <li><a href="javascript:void(0);" class="filter" data-filter=".gulp-bower">Gulp /Bower</a></li>
-                    <li><a href="javascript:void(0);" class="filter" data-filter=".category-keyboard">Angular JS</a></li>
-                    <li><a href="javascript:void(0);" class="filter" data-filter=".category-graphic">MongoDB</a></li>
-                    <li><a href="javascript:void(0);" class="filter" data-filter=".category-graphic">NodeJS/Express</a></li>
-                </ul>
+        <div class="col-md-3">
+            <ul class="sidebar-nav animated fadeIn">
+                <li class="active">
+                    <a data-toggle="collapse" href="#coll-css"> Modulos</a>
+                    <ul id="coll-css" class="menu-submenu list-unstyled collapse in">
+                        <li class="active"><a href="css_typography.html"><i class="fa fa-github" aria-hidden="true"></i> Git/GitHub</a></li>
+                        <li><a href="css_headers.html">Bootstrap</a></li>
+                        <li><a href="css_dividers.html">Gulp/Bower</a></li>
+                        <li><a href="css_blockquotes.html"> AngularJS</a></li>
+                        <li><a href="css_forms.html"> Mongo DB</a></li>
+                        <li><a href="css_tables.html"> Node JS / Express</a></li>
+                    </ul>
+                </li>
 
-            </div>
 
+
+
+            </ul>
         </div>
         <div class="col-md-9">
+
+
             <div class="row" id="Container">
-                <div class="col-md-12 mix github">
+                <div class="col-md-12 ">
                     <div class="ec-box">
                         <div class="ec-box-header"><a href="#"><strong>Git/GitHub</strong></a></div>
                         <br/>
@@ -121,44 +130,16 @@
 
 
 
-                <div class="col-md-12 mix bootstrap" style="display:none;">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#"><strong>Bootstrap</strong></a></div>
-                    </div>
-                </div>
-
-                <div class="col-md-12 mix gulp-bower">
-                    <div class="ec-box">
-                        <div class="ec-box-header"><a href="#"><strong>Gulp/Bower</strong></a></div>
-                    </div>
-                </div>
 
 
 
             </div>
+
+
+            <!-- panel show code -->
         </div>
     </div>
 </div>
-<!-- container -->
 
-<!-- build:include layout/footer/widgets.html -->
+<!-- build:include layout/footer.html -->
 <!-- /build -->
-<!-- build:include layout/footer/foot.html -->
-<!-- /build -->
-
-</div>
-<!-- boxed -->
-</div>
-<!-- sb-site -->
-
-<!-- build:include layout/footer/slidebar.html -->
-<!-- /build -->
-<!-- build:include layout/footer/totop.html -->
-<!-- /build -->
-<!-- build:include layout/footer/scripts.html -->
-<!-- /build -->
-<script src="<%= assets %>js/commerce.js"></script>
-
-</body>
-
-</html>
