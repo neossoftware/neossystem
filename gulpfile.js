@@ -1,5 +1,5 @@
 //Gulp File for Neossystem site
-//Neossoftware corporation ok asi esra bie
+//Neossoftware corporation from development
 
 var gulp =          require('gulp'),
     less =          require('gulp-less'),
