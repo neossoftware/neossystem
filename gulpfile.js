@@ -1,5 +1,5 @@
 //Gulp File for Neossystem site
-//Neossoftware corporation from dev2 ok
+//Neossoftware corporation from development trunk
 
 var gulp =          require('gulp'),
     less =          require('gulp-less'),
