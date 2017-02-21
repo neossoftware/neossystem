@@ -1,5 +1,5 @@
 //Gulp File for Neossystem site
-//Neossoftware corporation del merge ok vamonos!!!
+//Neossoftware corporation from dev2 ok
 
 var gulp =          require('gulp'),
     less =          require('gulp-less'),
