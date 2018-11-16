@@ -45,7 +45,7 @@
         "mixitup": "2.1.10",
         "respond": "1.4.2",
         "slidebars": "0.10.3",
-        "syntaxhighlighter": "http://alexgorbatchev.com/SyntaxHighlighter/download/download.php?sh_current",
+        "syntaxhighlighter": "https://github.com/syntaxhighlighter/syntaxhighlighter.git",
         "wowjs": "1.1.2",
         "imagesloaded": "3.1.8",
         "masonry": "3.3.2",

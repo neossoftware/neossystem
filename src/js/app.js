@@ -27,7 +27,7 @@ $(document).on('click','a.smooth', function(e){
 })(jQuery);
 
 // Syntax Enable
-SyntaxHighlighter.all();
+//SyntaxHighlighter.all();
 
 jQuery(document).ready(function () {
     $('.nav').on('click mousedown mouseup touchstart touchmove', 'a.has_children', function () {
@@ -191,7 +191,7 @@ $(function(){
         if(min<=max){      
             $('.roller-title-number-'+slno).html(min);     
             min=parseInt(min)+parseInt(increment);     
-            setTimeout(function(){numberRoll(eval(slno),eval(min),eval(max),eval(increment),eval(timeout))},timeout);      
+          //  setTimeout(function(){numberRoll(eval(slno),eval(min),eval(max),eval(increment),eval(timeout))},timeout);      
         }else{     
             $('.roller-title-number-'+slno).html(max);     
         }      
